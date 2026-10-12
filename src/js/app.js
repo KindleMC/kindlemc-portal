@@ -64,6 +64,6 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 function copyIP() {
-    navigator.clipboard.writeText("play.kindlemc.com");
-    alert("✨ Copied IP to clipboard: play.kindlemc.com");
+    navigator.clipboard.writeText("kindlemc.mcshost.com");
+    alert("✨ Copied IP to clipboard: kindlemc.mcshost.com");
 }
