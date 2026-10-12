@@ -1,3 +1,129 @@
+/* Color Palette Variables for Dark & Light Themes */
+:root[data-theme="dark"] {
+    --bg-main: #1e1916;
+    --card-bg: #29221d;
+    --card-border: #3d332c;
+    --card-inner: #211b17;
+    --accent-gold: #f4a261;
+    --accent-fire: #e76f51;
+    --text-main: #f4f1de;
+    --text-muted: #cbbfa8;
+    --code-bg: #14100e;
+    --shadow: rgba(0, 0, 0, 0.3);
+}
+
+:root[data-theme="light"] {
+    --bg-main: #fdf8f2;
+    --card-bg: #fff5eb;
+    --card-border: #e6d5c3;
+    --card-inner: #f7ede2;
+    --accent-gold: #d97706;
+    --accent-fire: #dd6b20;
+    --text-main: #2d241e;
+    --text-muted: #6b5c4d;
+    --code-bg: #eee0d0;
+    --shadow: rgba(180, 120, 60, 0.12);
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    line-height: 1.6;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header {
+    background-color: var(--card-bg);
+    border-bottom: 2px solid var(--accent-fire);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px var(--shadow);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent-gold);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.nav-btn {
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--text-main);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-btn:hover {
+    background-color: rgba(244, 162, 97, 0.15);
+    color: var(--accent-gold);
+}
+
+.nav-btn.active {
+    background-color: var(--accent-fire);
+    color: #ffffff;
+    border-color: var(--accent-fire);
+}
+
+.theme-toggle {
+    background: var(--card-inner);
+    border: 1px solid var(--card-border);
+    color: var(--text-main);
+    padding: 0.4rem 0.9rem;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.theme-toggle:hover {
+    border-color: var(--accent-gold);
+    color: var(--accent-gold);
+}
+
+main {
+    flex: 1;
+    max-width: 850px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 0 1.2rem;
+    box-sizing: border-box;
+}
+
+.tab-content {
+    display: none;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 2.5rem;
+    box-shadow: 0 6px 18px var(--shadow);
+}
+
+.tab-content.active {
+    display: block;
+}
+
 /* Hero Banner with Custom Wallpaper Background */
 .hero {
     position: relative;
@@ -60,3 +186,77 @@
     font-weight: 700;
     color: var(--text-main);
 }
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.2rem;
+}
+
+.card {
+    background-color: var(--card-inner);
+    border: 1px solid var(--card-border);
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: var(--accent-gold);
+}
+
+.action-btn {
+    background-color: var(--accent-fire);
+    color: #ffffff;
+    border: none;
+    padding: 0.85rem 1.6rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.action-btn:hover {
+    background-color: var(--accent-gold);
+    color: #1e1916;
+}
+
+.md-body h1 {
+    color: var(--accent-gold);
+    border-bottom: 2px solid var(--card-border);
+    padding-bottom: 0.5rem;
+}
+
+.md-body h2 {
+    color: var(--accent-fire);
+    margin-top: 1.8rem;
+}
+
+.md-body h3 {
+    color: var(--accent-gold);
+}
+
+.md-body blockquote {
+    background: var(--card-inner);
+    border-left: 4px solid var(--accent-gold);
+    margin: 1.5rem 0;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0 8px 8px 0;
+    color: var(--text-muted);
+}
+
+.md-body code {
+    background-color: var(--code-bg);
+    color: var(--accent-gold);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
