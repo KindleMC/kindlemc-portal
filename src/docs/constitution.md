@@ -1,16 +1,29 @@
 # 📜 The Constitution of Kindle MC
-*Supreme Law of the Sanctuary*
+*Supreme Law & Core Vision of the Sanctuary*
 
-> **The Core Principle:** Be kind, protect privacy, play fair, and leave other people's things alone[cite: 22].
-
----
-
-### Article I: Foundational Guarantees
-1. **The Cozy Sanctuary:** Every player is guaranteed a fair, wholesome, non-commercial survival environment free from pay-to-win practices, land claim clutter, and toxicity[cite: 22, 24, 25].
-2. **Forever World:** Our world map never resets[cite: 17]. Your builds, progress, and accomplishments are permanent[cite: 17, 24].
-3. **Consent of Combat:** PvP is strictly allowed only when both players mutually agree beforehand[cite: 23].
+> **The Core Principle:** Protect human dignity, community trust, peace, and mutual respect.
 
 ---
 
-### Article II: Constitutional Amendments
-Any change or addition to this Constitution requires a **50% Voter Majority vote** in the `#court` channel over a 7-day voting period[cite: 110, 136, 147, 173].
+### Article I: Foundational Sanctuary Guarantees
+1. **The Wholesome Sanctuary:** Every player is guaranteed a safe, wholesome, non-commercial survival world free from pay-to-win ranks, cash-grab stores, claim clutter, and toxicity.
+2. **Forever World Guarantee:** Our world map shall never reset. All player builds, history, and achievements are permanently protected against map wipes.
+3. **Mutual Consent & Privacy:** No player may take action that negatively alters another player's progress or experience without explicit mutual agreement. Personal privacy is sacred and non-negotiable.
+
+---
+
+### Article II: Constitutional Supremacy
+1. **Highest Legal Rank:** The Constitution holds the supreme rank in the legal hierarchy of Kindle MC.
+2. **Automatic Nullification:** Any statutory law, server SOP, moderation action, or administrative order that conflicts with this Constitution is automatically void and unenforceable.
+
+---
+
+### Article III: Scope & Delegation
+1. **Abstract Framework:** The Constitution sets forth only the broad main ideas, foundational rights, and legal structure of the server.
+2. **Statutory Delegation:** All specific operational rules, gameplay guidelines, technical restrictions, and staff enforcement SOPs are strictly reserved for ordinary statutory laws.
+
+---
+
+### Article IV: Rigidity & Amendment Procedure
+1. **Stability Guarantee:** As the foundation of our sanctuary, the Constitution is rigid and protected against arbitrary or frequent modification.
+2. **Enactment Threshold:** Amending or enacting any constitutional provision requires a formal proposal and a **50% Voter Majority vote** in `#🧑‍⚖️・court` over a 7-day voting period.

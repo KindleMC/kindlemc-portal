@@ -28,19 +28,27 @@
         <!-- ABOUT TAB -->
         <section id="about" class="tab-content active">
             <div class="hero">
-                <!-- Display Logo PNG if available -->
+                <!-- Title Logo -->
                 <img src="src/assets/logo.png" alt="Kindle MC" class="hero-logo" onerror="this.style.display='none'">
                 
-                <button class="action-btn" onclick="copyIP()">✨ Copy Server IP: kindlemc.mcshost.com</button>
+                <!-- IP Button & Clean Status Badge (Removed extra dot emoji from text) -->
+                <div class="hero-ip-bar">
+                    <button class="action-btn" onclick="copyIP()">✨ Copy Server IP: kindlemc.mcshost.com</button>
+                    <span class="server-status-badge">Online • Survival 26.3+</span>
+                </div>
 
-                <!-- Quick Navigation Cards with Server Icons -->
+                <!-- 4-Column Navigation Grid -->
                 <div class="nav-card-grid">
                     <div class="nav-card" onclick="switchTab('constitution')">
-                        <img src="src/assets/icon.png" alt="Rules" onerror="this.src='https://api.mineatar.io/face/steve'">
+                        <img src="src/assets/icons/icon-constitution.png" alt="Constitution" onerror="this.src='src/assets/icon.png'">
+                        <span>Constitution</span>
+                    </div>
+                    <div class="nav-card" onclick="switchTab('statutes')">
+                        <img src="src/assets/icons/icon-statutes.png" alt="Rules" onerror="this.src='src/assets/icon.png'">
                         <span>Rules</span>
                     </div>
                     <div class="nav-card" onclick="switchTab('civics')">
-                        <img src="src/assets/icon.png" alt="Civics" onerror="this.src='https://api.mineatar.io/face/alex'">
+                        <img src="src/assets/icons/icon-civics.png" alt="Civics" onerror="this.src='src/assets/icon.png'">
                         <span>Civics</span>
                     </div>
                 </div>

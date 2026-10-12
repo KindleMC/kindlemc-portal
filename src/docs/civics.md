@@ -1,27 +1,56 @@
 # 🏛️ Kindle MC Civics & Governance
-*A Guide to How Our Community Works Together*
+*System Hierarchy, Branch Roles, and Operational Procedures*
 
-Welcome to Social Studies at Kindle MC! Our server is governed like a trust-based democratic republic. Power is balanced between citizens, moderators, and automated tools so nobody holds total control.
-
----
-
-## 1. 🛡️ In-Game Protection (Trust Over Enforcement)
-* **No Ugly Claims:** Instead of blocking land with claim markers, everyone builds freely in natural survival[cite: 24, 25].
-* **Ledger Logging:** Every block edit, broken item, and chest opening is logged for 90 days (`/ledger inspect`)[cite: 108, 145].
-* **Safety Net:** If griefing or theft occurs, staff use Ledger to roll back the damage instantly (`/ledger rollback`)[cite: 108, 110, 145, 147].
+Kindle MC operates under a clear legal separation between supreme main principles (The Constitution) and specific operational rules (Statutes).
 
 ---
 
-## 2. 🤖 Discord Bot & World Petitions
-Community ideas are processed through our custom Discord bot:
-1. **Submitting Ideas:** Members with the **Voter** role run `/poll-request` in `#submit-world-petition`[cite: 104].
-2. **Discussion Threads:** The bot automatically creates a dedicated thread under your proposal for feedback[cite: 104].
-3. **Voting Phase:** Moderators review the proposal and approve it to post as an official native 7-day poll in `#world-decisions`[cite: 104].
+## 📜 1. Legal Hierarchy
+
+* **📜 Tier 1: The Constitution (Supreme Law)**
+  * **Scope:** Pure main ideas, foundational sanctuary guarantees, and core rights.
+  * **Modification:** Requires a 50% Voter Majority vote in `#🧑‍⚖️・court` over a 7-day period.
+  * **Authority:** Supreme Law. Any statute or rule conflicting with the Constitution is automatically null and void.
+
+* **⚖️ Tier 2: Statutory Laws (Server Code)**
+  * **Scope:** ALL specific server rules (griefing, duping, claims, whitelist format, staff SOPs).
+  * **Modification:** Enacted and modified by a majority vote of the Legislative (`Leg`) Branch.
+  * **Authority:** Subordinate to the Constitution. Derived directly from constitutional principles.
 
 ---
 
-## 3. ⚖️ The Government Branches
-* **Legislative Council (#court Voters):** Registered citizens who vote on constitutional amendments (requiring 50% majority over 7 days)[cite: 110, 136, 147, 173].
-* **Judicial Tribunal (Admins & Moderators):** Handles support tickets, evidence reviews, and temporary interim bans[cite: 110, 137, 147, 174].
-* **Invigilate / Audit Agency:** Independent staff checkers who review Ledger logs to make sure moderation stays fair and unbiased[cite: 110, 137, 139, 147, 174, 176].
-* **Civil Service Agency:** Volunteers who help onboard new members, host community events, and organize spawn builds[cite: 137, 139, 174, 176].
+## 🏛️ 2. Government Branches & Roles
+
+### 👑 Root Administration (`Admin` Role)
+* **Role Holder:** Lead Administrators holding the **`Admin`** role on Discord.
+* **Core Responsibilities:**
+  * Controls Discord channel architecture, permission structures, server hosting, and root system management.
+  * Maintains core server infrastructure, bot integrations, and technical security while upholding constitutional alignment.
+
+### 🏛️ Legislative Branch (`Legislative` / `Leg` Role)
+* **Role Holder:** Recognized members holding the designated **`Leg`** role on Discord.
+* **Core Responsibilities:**
+  * Drafts, deliberates on, and votes to pass or modify all statutory server laws and gameplay guidelines.
+  * Ensures all newly enacted rules conform strictly to the main ideas of the Constitution.
+  * Initiates policy proposals and world petitions for community review.
+
+### ⚖️ Judicial Branch (`Judicial` / `Jud` Role)
+* **Role Holder:** Appointed staff holding the designated **`Jud`** role on Discord.
+* **Core Responsibilities:**
+  * Fairly enforces statutory laws inside private support tickets.
+  * Inspects container and block history using Ledger commands (`/ledger inspect`).
+  * Issues rollbacks (`/ledger rollback`) and temporary interim penalties to restore damaged builds or stolen property.
+
+---
+
+## 🤖 3. Discord Community Petitions & Voting Workflow
+
+Every citizen has a voice in shaping Kindle MC. Community proposals follow a transparent 3-step pipeline:
+
+1. **Submit Proposal:** Citizens with the **Voter** role run `/poll-request` in `#🐻‍❄️・poll-discussion`.
+2. **Community Discussion:** The Discord bot automatically opens a dedicated thread under your submission for feedback and refinements.
+3. **Official Community Vote:** Approved proposals transition into a native 7-day poll in `#📝・in-game-votes`.
+
+---
+
+> 💛 *Kindle MC is built on kindness, transparency, and mutual trust. If you ever have questions about our laws or governance, open a ticket or ask in the Discord community!*
