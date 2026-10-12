@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kindle MC | Sanctuary Web Portal</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">🔥 Kindle MC</div>
+        <nav>
+            <button class="nav-btn active" onclick="switchTab('about')">🏡 About</button>
+            <button class="nav-btn" onclick="switchTab('constitution')">📜 Constitution</button>
+            <button class="nav-btn" onclick="switchTab('statutes')">⚖️ Statutes</button>
+            <button class="nav-btn" onclick="switchTab('civics')">🏛️ Civics & How-It-Works</button>
+            <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn" title="Toggle Light/Dark Mode">🌙 Dark</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ABOUT TAB -->
+        <section id="about" class="tab-content active">
+            <div class="hero">
+                <h1>Welcome Home to Kindle MC ✨</h1>
+                <p>A cozy 13+ survival world built on real trust, kindness, and community.</p>
+                <button class="action-btn" onclick="copyIP()">✨ Copy Server IP: play.kindlemc.com</button>
+            </div>
+
+            <div class="card-grid">
+                <div class="card">
+                    <h3>🌱 No Land Claims</h3>
+                    <p>Build and explore naturally with friends without claim markers or rigid borders.</p>
+                </div>
+                <div class="card">
+                    <h3>💛 100% Non-Commercial</h3>
+                    <p>No pay-to-win ranks, stores, or gacha crates. Everyone plays on an equal footing.</p>
+                </div>
+                <div class="card">
+                    <h3>🌲 Forever World</h3>
+                    <p>Our survival map never resets. Your builds and memories are protected forever.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONSTITUTION TAB -->
+        <section id="constitution" class="tab-content">
+            <div id="constitution-doc" class="md-body">
+                <p class="loading-text">🔥 Loading Constitution...</p>
+            </div>
+        </section>
+
+        <!-- STATUTES TAB -->
+        <section id="statutes" class="tab-content">
+            <div id="statutes-doc" class="md-body">
+                <p class="loading-text">🔥 Loading Statutory Laws...</p>
+            </div>
+        </section>
+
+        <!-- CIVICS & HOW-IT-WORKS TAB -->
+        <section id="civics" class="tab-content">
+            <div id="civics-doc" class="md-body">
+                <p class="loading-text">🔥 Loading Civics & Social Studies Guide...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Kindle MC • Built with kindness & trust 💛</p>
+    </footer>
+
+    <script src="src/js/app.js"></script>
+</body>
+</html>
